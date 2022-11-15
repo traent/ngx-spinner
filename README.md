@@ -11,7 +11,7 @@
 > @traent/ngx-spinner is an Angular library that provides a spinner element with the UI and UX of Traent. Behind the scene, it uses [MatSpinnerModule](https://material.angular.io/components/progress-spinner/overview) and the [OverlayModule](https://material.angular.io/cdk/overlay/overview).
 
 
-> Important note: This library is actually under development and could have some further breaking changes. We are also planning to move it inside [@traent/ngx-components](https://github.com/traent/ngx-components).
+> Notice: This library is currently under development and might be subjected to breaking changes. We also plan to move it inside [@traent/ngx-components](https://github.com/traent/ngx-components).
 
 ## Compatibility with Angular Versions
 
@@ -54,5 +54,5 @@ In the future, we will improve the tooling to allow everyone to build this libra
 
 ## Contributors
 
-At the moment, contributions are not supported through Pull Request.
-However, we truly appreciate any feedback made through the issue system.
+At the moment, Pull request contributions are not supported.
+However, we truly appreciate any feedbacks made through the issue system.
