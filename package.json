@@ -1,6 +1,6 @@
 {
   "name": "@traent/ngx-spinner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Traent S.r.l."
   },
@@ -19,5 +19,10 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "exports": {
+    "./assets/styles.min": {
+      "sass": "./assets/styles.min.scss"
+    }
   }
 }

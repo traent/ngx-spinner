@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const traent_tw = require('../traent-design-system/tailwind/tw-base-theme');
+const tw_traent = require('../traent-design-system/tailwind/tw-base-theme');
 const tw_plugins = require('../traent-design-system/tailwind/tw-plugins');
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
     "./projects/ngx-t3-spinner/**/*.{html,ts,scss}",
   ],
   theme: {
-    extend: { ...traent_tw.theme },
+    extend: { ...tw_traent.theme },
   },
   plugins: [
     function ({ addBase, theme }) {
