@@ -54,5 +54,4 @@ In the future, we will improve the tooling to allow everyone to build this libra
 
 ## Contributors
 
-At the moment, Pull request contributions are not supported.
-However, we truly appreciate any feedbacks made through the issue system.
+We are open to any contributions and feedbacks.
