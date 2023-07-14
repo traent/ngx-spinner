@@ -40,7 +40,9 @@ class AppModule {}
 
 ## API & Examples
 
-Coming Soon.
+The example app can be launched using `npm run serve:example`.
+
+In it, you can find a simple usage of `ngx-t3-spinner-context`: we can transclude elements in it and add choose their positioning, using `before` or `after`.
 
 ## Building & Publishing
 
@@ -54,4 +56,5 @@ In the future, we will improve the tooling to allow everyone to build this libra
 
 ## Contributors
 
-We are open to any contributions and feedbacks.
+At the moment, Pull request contributions are not supported.
+However, we truly appreciate any feedbacks made through the issue system.

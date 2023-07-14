@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-t3-spinner'),
+      dir: require('path').join(__dirname, '../../../coverage/traent/ngx-spinner'),
       subdir: '.',
       reporters: [
         { type: 'html' },

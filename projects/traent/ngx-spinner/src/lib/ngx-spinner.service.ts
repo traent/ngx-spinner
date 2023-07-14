@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { shareReplay } from 'rxjs/operators';
 
-import { NgxT3SpinnerComponent } from './ngx-t3-spinner.component';
+import { NgxT3SpinnerComponent } from './ngx-spinner.component';
 
 @Injectable({
   providedIn: 'root',

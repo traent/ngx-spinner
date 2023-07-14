@@ -1,0 +1,58 @@
+<div class="layout">
+  <div class="container">
+    <div style="display: flex; flex-direction: row;">
+      <div class="content">
+        <ngx-t3-spinner-context
+          *ngIf="isLoading; else loaded"
+          class="tw-stroke-accent">
+          <p
+            style="font-size: 14px;"
+            after>
+            loading content...
+          </p>
+        </ngx-t3-spinner-context>
+
+        <ng-template #loaded>
+          <span style="font-size: 48px;">🎉</span>
+        </ng-template>
+      </div>
+
+      <div class="content">
+        <ngx-t3-spinner-context
+          *ngIf="isLoading; else loaded"
+          class="tw-stroke-accent">
+        </ngx-t3-spinner-context>
+
+        <ng-template #loaded>
+          <span style="font-size: 48px;">🎉</span>
+        </ng-template>
+      </div>
+
+      <div class="content">
+        <ngx-t3-spinner-context
+          *ngIf="isLoading; else loaded"
+          class="tw-stroke-accent">
+          <p
+            style="font-size: 14px;"
+            before>
+            loading content...
+          </p>
+        </ngx-t3-spinner-context>
+
+        <ng-template #loaded>
+          <span style="font-size: 48px;">🎉</span>
+        </ng-template>
+      </div>
+
+    </div>
+    <div>
+      <span style="text-align: center;">Change the state by pressing the button</span>
+
+      <div
+        class="status-btn"
+        (click)="isLoading = !isLoading">
+        switch
+      </div>
+    </div>
+  </div>
+</div>

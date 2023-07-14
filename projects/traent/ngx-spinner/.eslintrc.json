@@ -1,0 +1,26 @@
+{
+  "extends": "../../../.eslintrc.json",
+  "ignorePatterns": [
+    "!**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "projects/traent/ngx-spinner/tsconfig.lib.json",
+          "projects/traent/ngx-spinner/tsconfig.spec.json"
+        ],
+        "createDefaultProgram": true
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "rules": {}
+    }
+  ]
+}
