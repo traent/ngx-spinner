@@ -1,0 +1,20 @@
+{
+  "name": "@traent/ngx-spinner",
+  "version": "0.1.9",
+  "peerDependencies": {
+    "@angular/cdk": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/material": "^14.2.0",
+    "@traent/design-system": ">=0.0.6 <=0.0.x",
+    "rxjs": "^7.5.7"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "exports": {
+    "./assets/styles.min": {
+      "sass": "./assets/styles.min.scss"
+    }
+  }
+}

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ngx-t3-spinner-context',
   template: `
-    <div class="opal-fx-col opal-fx-align-center opal-fx-justify-center opal-s-full">
+    <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-w-full tw-h-full">
     <ng-content select="[before]"></ng-content>
       <mat-spinner color="accent"></mat-spinner>
       <ng-content select="[after]"></ng-content>

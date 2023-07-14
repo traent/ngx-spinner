@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ngx-t3-spinner',
   template: `
-    <div class="opal-fx-row opal-fx-align-center opal-fx-justify-center opal-s-full">
+    <div class="tw-flex tw-flex-row tw-items-center tw-justify-center tw-w-full tw-h-full">
       <mat-spinner color="accent"></mat-spinner>
     </div>
   `,
